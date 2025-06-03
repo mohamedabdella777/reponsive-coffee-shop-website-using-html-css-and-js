@@ -59,8 +59,6 @@
    font-weight: bolder;
 }
  
-   
- 
   .header .navbar a{
    margin: 0 1rem;
    font-size: 1.6rem;
@@ -229,9 +227,7 @@
    background: var(--black);
    flex-wrap: wrap;
    gap: 1rem;
-  
 }
-
 .about .row .imge{
   flex: 1 1 45rem;
 }
@@ -256,7 +252,6 @@
    gap: 1.5rem;
    text-align: center;
    justify-content: center;
-   
 }
 .menu .box-container .box{
  padding: 5rem;
@@ -272,7 +267,6 @@
 .menu .box-container .box:hover .btn{
    background-color: #fff;
 }
-
 .menu .box-container .box img{
    height: 10rem;
    width: 10rem;
@@ -369,24 +363,23 @@
    display: grid;
    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
    gap: 2rem;
-  
 }
 .review .box-container .box{
    border: var(--border);
    padding: 5rem ;
    text-align: center;
-   
-
 }
-.review .box-container .box .qoute{
-   height: 7rem;
-   object-fit: cover;
+.review .box-container .box i{
+   font-size: 8rem;
+   color: var(--main-color);
+   margin: 1rem 0;
 }
 
 .review .box-container .box .user{
   height: 9rem;
   width: 9rem;
   border-radius: 50%;
+  object-fit: cover;
 }
    .review .box-container .box p{
  font-size: 1.6rem;
@@ -401,16 +394,14 @@ color: #fff;
 padding: 1rem 0;
 }
 .review .box-container .box .stars{
-padding: 1.2rem;
+padding: 0.5rem 0;
 color: var(--main-color);
 }
 .review .box-container .box .stars i{
 font-size: 1.7rem;
 }
 /* contact section*/
-.contact .heading{
 
-}
 .contact .row{
 display: flex;
 align-items: center;
@@ -441,7 +432,6 @@ margin-top: 2rem;
 margin-bottom: 2rem;
 background-color: var(--bg);
 border: var(--border);
-
 }
 .contact .row  form .inputBox span{
 color: #fff;
@@ -449,7 +439,6 @@ font-size: 2rem;
 padding-right: 2rem;
 padding-left: 1rem;
 }
-
 .contact .row  form .inputBox input{
 width: 100%;
 padding: 2rem;
@@ -459,10 +448,6 @@ text-transform: none;
 background: none;
 }
 /*blogs section*/
-.blogs .heading{
-
-}
-
 .blogs .box-container {
   display: grid;
    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
@@ -560,13 +545,7 @@ font-weight: lighter;
 color: var(--main-color);
 }
 
-
-
-
-
-
-
-           /*media queries*/
+ /*media queries*/
  @media (max-width:991px){
    html{
    font-size: 55%;
@@ -578,7 +557,7 @@ color: var(--main-color);
    padding: 2rem;
   }
   
-    }
+   }
     
     
  @media (max-width:768px){
@@ -627,5 +606,4 @@ color: var(--main-color);
    font-size: 50%;
   }
  
-  
     }
